@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container to hold the layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header styling */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main content area styling */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Video section styling */
+.video-section {
+    text-align: center;
+}
+
+.video-container {
+    display: inline-block;
+    border: 3px solid #333;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Ensure video fits within container */
+#video_feed {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
